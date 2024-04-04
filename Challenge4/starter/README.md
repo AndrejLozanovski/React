@@ -13,7 +13,7 @@ There is also heart icon on the restaurant card which can be clicked and mark it
 Clone the repository:
 
 ```
-git clone
+git clone https://github.com/AndrejLozanovski/React.git
 ```
 
 Install the dependencies after entering the starter file with `cd starter` in the terminal:

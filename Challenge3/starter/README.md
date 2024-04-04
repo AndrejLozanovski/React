@@ -15,7 +15,7 @@ By clicking the image with content "MUSIC DB" you will be redirected to the home
 Clone the repository:
 
 ```
-git clone
+git clone https://github.com/AndrejLozanovski/React.git
 ```
 
 Install the dependencies after entering the starter file with `cd starter` in the terminal:
