@@ -1,0 +1,24 @@
+.bg-orange {
+  background-color: rgb(255, 187, 0);
+}
+
+.card {
+  cursor: pointer;
+  transition: border 0.2s ease;
+  border-radius: 4px;
+}
+
+.card:hover {
+  border-color: rgb(255, 187, 0);
+  text-decoration: underline;
+}
+
+.card-image {
+  transition: transform 0.2s ease;
+  height: 100%;
+  object-fit: contain;
+}
+
+.card:hover .card-image {
+  transform: scale(1.06);
+}

@@ -1,0 +1,45 @@
+.share-icons .fab {
+  color: white;
+}
+
+.share-icons a {
+  padding: 10px 15px;
+  background-color: rgb(255, 187, 0);
+  transition: all 0.15s ease;
+  display: inline-block;
+}
+
+.share-icons a:not(:last-child) {
+  margin-right: 10px;
+}
+
+.share-icons a:hover {
+  background-color: rgb(214, 132, 9);
+}
+.footer {
+  background-color: #f8f8f8;
+  padding: 60px 0;
+}
+
+.footer h2 {
+  margin-bottom: 20px;
+  margin-top: 0;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.footer ul {
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style-type: none;
+}
+
+.footer ul li a {
+  color: black;
+  transition: all 0.15s ease;
+  text-decoration: none;
+  font-size: 16px;
+}
+.footer ul li a:hover {
+  text-decoration: underline;
+}

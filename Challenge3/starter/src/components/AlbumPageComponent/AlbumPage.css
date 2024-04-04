@@ -1,0 +1,14 @@
+@media (max-width: 425px) {
+  .album-details {
+    text-align: center;
+    padding: 30px;
+  }
+
+  .album-details img {
+    width: 200px;
+  }
+
+  .album-details p {
+    margin: 5px;
+  }
+}

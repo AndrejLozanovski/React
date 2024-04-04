@@ -1,0 +1,19 @@
+@media (max-width: 425px) {
+  .albums-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .album {
+    flex-basis: 50%;
+  }
+
+  .albums-container .album .album-link {
+    display: block;
+  }
+
+  .album img {
+    max-width: 100%;
+    display: block;
+  }
+}

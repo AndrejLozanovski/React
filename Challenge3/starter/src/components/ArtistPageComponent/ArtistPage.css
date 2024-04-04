@@ -1,0 +1,19 @@
+@media (max-width: 425px) {
+  .artist-details {
+    text-align: center;
+    padding: 15px;
+    background-color: rgb(206, 206, 206);
+  }
+
+  .artist-details img {
+    width: 200px;
+  }
+
+  .artist-details .artist-name {
+    margin: 15px 0px;
+  }
+
+  .artist-details .artist-bio {
+    margin: 15px 0px;
+  }
+}

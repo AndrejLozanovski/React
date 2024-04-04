@@ -1,0 +1,52 @@
+@use "../abstracts/variables" as var;
+@use "../abstracts/mixins" as mix;
+
+.details {
+  .content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    @include mix.mobile-l-styles {
+      display: block;
+    }
+
+    @extend %wrap;
+    @extend %section;
+
+    .description {
+      width: 60%;
+
+      @include mix.mobile-l-styles {
+        width: 100%;
+      }
+
+      .about {
+        text-transform: uppercase;
+        color: var.$text-color-secondary;
+      }
+    }
+
+    .image {
+      width: 500px;
+      height: 500px;
+
+      @include mix.tablet-styles {
+        width: 300px;
+        height: 300px;
+      }
+
+      @include mix.mobile-l-styles {
+        width: 400px;
+        height: 400px;
+      }
+
+      img {
+        border-radius: 50%;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+    }
+  }
+}

@@ -1,0 +1,37 @@
+.filter-menu {
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style-type: none;
+  line-height: 2.2;
+}
+
+.filter-menu:last-child {
+  padding-bottom: 50px;
+}
+
+.filter-menu li {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.filter-menu li:hover,
+.filter-menu li.active {
+  color: rgb(255, 187, 0);
+}
+
+.filter-menu li:hover .badge,
+.filter-menu li.active .badge {
+  background: rgb(255, 187, 0);
+}
+
+.filter-menu li.active {
+  font-weight: 600;
+}
+
+.badge {
+  background-color: #7c7c7c;
+  color: white;
+}

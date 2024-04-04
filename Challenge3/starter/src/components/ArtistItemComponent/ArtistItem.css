@@ -1,0 +1,21 @@
+@media (max-width: 425px) {
+  .artist-item {
+    position: relative;
+    padding: 10px;
+  }
+
+  .artist-item img {
+    display: block;
+    max-width: 100%;
+  }
+
+  .artist-item p {
+    position: absolute;
+    margin: 0;
+    bottom: 10px;
+    padding: 8px 13px;
+    background-color: rgb(0, 157, 255);
+    color: white;
+    font-weight: bold;
+  }
+}

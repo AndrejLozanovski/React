@@ -1,0 +1,33 @@
+@use "../abstracts/variables" as var;
+@use "../abstracts/mixins" as mix;
+
+.banner {
+  background-image: url("https://fastly.picsum.photos/id/12/2500/1667.jpg?hmac=Pe3284luVre9ZqNzv1jMFpLihFI6lwq7TPgMSsNXw2w");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+
+  .content {
+    @extend %wrap;
+
+    color: var.$text-color-primary;
+
+    p {
+      text-transform: uppercase;
+    }
+
+    button {
+      padding: 10px 25px;
+      text-transform: uppercase;
+      border: 0;
+      cursor: pointer;
+
+      @include mix.mobile-l-styles {
+        width: 100%;
+      }
+    }
+  }
+}

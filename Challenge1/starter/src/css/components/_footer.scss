@@ -1,0 +1,18 @@
+@use "../abstracts/variables" as var;
+@use "../abstracts/mixins" as mix;
+
+.footer {
+  background-color: var.$background-color-secondary;
+  color: var.$text-color-secondary;
+  text-transform: uppercase;
+
+  .content {
+    @extend %section;
+    text-align: center;
+
+    p {
+      cursor: pointer;
+      margin-bottom: 10px;
+    }
+  }
+}

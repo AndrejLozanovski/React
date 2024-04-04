@@ -1,0 +1,50 @@
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 5px;
+  margin: 15px;
+  border-bottom: 2px solid rgba(214, 214, 214, 0.4);
+}
+
+nav .logo {
+  margin-left: 20px;
+}
+
+nav .logo img {
+  width: 100px;
+}
+
+nav .active {
+  color: black;
+}
+
+nav a {
+  text-decoration: none;
+  color: grey;
+}
+
+nav a:hover {
+  color: black;
+}
+
+nav ul {
+  display: flex;
+  padding: 0;
+  margin: 0;
+}
+
+nav ul li {
+  list-style-type: none;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-right: 15px;
+}
+
+nav .search-shop-icons {
+  margin-right: 20px;
+}
+
+nav .search-shop-icons i {
+  margin-left: 20px;
+}
